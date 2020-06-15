@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    
+    <div id="maindiv">
+        
+        <!-- <div id="screen"><textarea name="screencal"  cols="42" rows="3"></textarea></div> -->
+
+        <div id="space"></div>
+        <div>
+            <form name="cform"></form>
+        <table border="1" align="center">
+
+            <tr>
+                <td colspan="4" align="center"><h2>Calculator</h2></td>
+            </tr>
+            <tr>
+                <td colspan="4" align="center" height="60"><input type="text" name="display1" style="text-align: right; height: 55px; width: 250px; font-size: 25px;"></td>
+
+            </tr>
+            <tr align="center">
+                <td width="60" height="60"><input type="button" name="btn1" height="10" width="15" value="1" class="btn_style" onclick="cform.display1.value += '1' "></td>  
+                <td width="60" height="60"><input type="button" name="btn2" height="10" width="15" value="2" class="btn_style"></td>  
+                <td width="60" height="60"><input type="button" name="bnt3" height="10" width="15" value="3" class="btn_style"></td>               
+                <td width="60" height="60"><input type="button" name="btn*" height="10" width="15" value="*" class="btn_style"></td>  
+                
+            </tr>
+            <tr align="center">
+                <td width="50" height="50"><input type="button" name="btn4" height="10" width="10" value="4" class="btn_style"></td>  
+                <td width="50" height="50"><input type="button" name="btn5" height="10" width="10" value="5" class="btn_style"></td>  
+                <td width="50" height="50"><input type="button" name="btn6" height="10" width="10" value="6" class="btn_style"></td>               
+                <td width="50" height="50"><input type="button" name="btn-" height="10" width="10" value="-" class="btn_style"></td>  
+                
+            </tr>
+            <tr align="center">
+                <td width="50" height="50"><input type="button" name="btn7" height="10" width="10" value="7" class="btn_style"></td>  
+                <td width="50" height="50"><input type="button" name="btn8" height="10" width="10" value="8" class="btn_style"></td>  
+                <td width="50" height="50"><input type="button" name="btn9" height="10" width="10" value="9" class="btn_style"></td>               
+                <td width="50" height="50"><input type="button" name="btn+" height="10" width="10" value="+" class="btn_style"></td>  
+                
+            </tr>
+            <tr align="center">
+                <td width="50" height="50"><input type="button" name="btnclear" height="10" width="10" value="Clr" class="btn_style"></td>  
+                <td width="50" height="50"><input type="button" name="btn0"     height="10" width="10" value="0" class="btn_style"></td>  
+                <td width="50" height="50"><input type="button" name="btnequal" height="10" width="10" value="=" class="btn_style"></td>               
+                <td width="50" height="50"><input type="button" name="btn/"     height="10" width="10" value="/" class="btn_style"></td>  
+                
+            </tr>
+           
+        </table>
+    </div>
+    </div>
+</body>
+</html>

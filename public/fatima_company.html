@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fertilizers-Fatima</title>
+
+    <!--Awesome Font-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootnavbar.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--Css-->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .form-control {
+            background-color: whitesmoke;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: whitesmoke;
+        }
+
+        
+        /* .form-styling{
+            padding: 15px;
+            margin-top: 0px;
+            margin: 0px;
+            -webkit-box-shadow: -1px 4px 26px 5px rgba(0,0,0,0.96);
+            -moz-box-shadow: -1px 4px 26px 5px rgba(0,0,0,0.96);
+            box-shadow: -1px 4px 26px 3px #26a69a;
+            margin-bottom: 20px;
+        }
+
+        label{
+            font-size: 22px;
+            padding: 8px;
+        } */
+
+        .bar{
+            height:3px;
+            width:85%;
+            background-color: gray;
+            box-shadow: 1px 2px 10px rgb(78, 153, 78);
+            display:block;
+            text-align: center;
+            
+        }
+        .barprograss{
+            height:3px;
+            width:75%;
+            background-color: rgba(103, 202, 5, 0.856);
+            box-shadow: -1px 1px 8px green;
+            display:block;
+            float:left;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <img src="images/2.png" class="img-fluid d-block w-100 " style="width: 100%; height: 100px;" alt="Banner">
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark mynav" style="background-color:#00766c ;">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Fertilizers
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="angro_company.html">Engro Company</a>
+                        <a class="dropdown-item" href="ffc-company.html">FFC Company</a>
+                        <a class="dropdown-item active" href="#">Fatima Fertilizers Company  <span class="sr-only">(current)</span></a>
+                        <a class="dropdown-item disabled" href="#">Pak Arab Company</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Pesticides
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item disabled" href="#">FMC Company</a>
+                        <a class="dropdown-item disabled" href="#">Swat Engro Company</a>
+                        <a class="dropdown-item disabled" href="#">Kanzo Company</a>
+                        <a class="dropdown-item disabled" href="#">Origa Company</a>
+                        <a class="dropdown-item disabled" href="#">Bravo Pesticide Company</a>
+                        <a class="dropdown-item disabled" href="#">Comida Company</a>
+                        <a class="dropdown-item disabled" href="#">Sergenda Company</a>
+                        <a class="dropdown-item disabled" href="#">Esa Farm Pesticides Company</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Seeds
+                    </a>
+                    <div class="dropdown-menu" style="background-color: rgb(4, 214, 214);"
+                        aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item disabled" href="#">Tassco seed Company</a>
+                        <a class="dropdown-item disabled" href="#">Advanced Seeds Company</a>
+                        <a class="dropdown-item disabled" href="#">Rustam Seeds Company</a>
+                        <a class="dropdown-item disabled" href="#">FMC Seeds Company</a>
+                        <a class="dropdown-item disabled" href="#">Angro Seeds Company</a>
+                        <a class="dropdown-item disabled" href="#">Tuba Seeds Company</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about-us.html">About Us</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Sign_in.html">Sign up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login-in.html">Login in</a>
+                </li>
+            </ul>
+        </div>
+
+        <form class="form-inline">
+            <input class="form-control color mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <img src="images/fatima-2.jpg" class="img-fluid d-block w-100 "
+                style="width: 100%; height: 400px;" alt="Banner">
+        </div>
+    </div>
+
+
+    <br><br><br>
+   
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-center">
+                <h1 style="color:#057568">Engro Company Products</h1>
+                <span class="bar"><span class="barprograss"></span></span>
+                <!-- <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 25%; height: 5px; background-color:green;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="65"></div>
+                  </div> -->
+            </div>
+            <div class="col-md-2"></div>
+
+        </div>
+    </div>
+
+    <br><br>
+    <div class="container text-center self-adjust-center">
+        <div class="row text-center">
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6">
+                <div class="card m-1 p-1" style="width: 14rem;">
+                    <img class="card-img-top" height="200" src="http://fatima-group.com/updata/products/w305/1_20150711193359.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Sarsabz Calcium Ammonium Nitrate</h5>
+                      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                      <a href="#" class="btn btn-success">add to cart</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6">
+                <div class="card m-1 p-1" style="width: 14rem;">
+                    <img class="card-img-top" height="200" src="http://fatima-group.com/updata/products/w305/2_20150711193206.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Sarsabz Urea</h5>
+                      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                      <a href="#" class="btn btn-success">add to cart</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6">
+                <div class="card m-1 p-1" style="width: 14rem;">
+                    <img class="card-img-top" height="200" src="images/pesticide-zinc.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Sarsabz Zinc</h5>
+                      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                      <a href="#" class="btn btn-success">add to cart</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6">
+                <div class="card m-1 p-1" style="width: 14rem;">
+                    <img class="card-img-top"  height="200" src="images/Engro-zabardast-urea.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Zabardast Urea</h5>
+                      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                      <a href="#" class="btn btn-success">add to cart</a>
+                    </div>
+                  </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6">
+                <div class="card m-1 p-1" style="width: 14rem;">
+                    <img class="card-img-top"  height="200" src="images/zarkhez-tabbacco.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Zarkhez Tobacco</h5>
+                      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                      <a href="#" class="btn btn-success">add to cart</a>
+                    </div>
+                  </div>
+            </div>        
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6">
+                <div class="card m-1 p-1" style="width: 14rem;">
+                    <img class="card-img-top" height="200" src="images/engro-sop.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Nitro Potash">Sarsabz NP</h5>
+                      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                      <a href="#" class="btn btn-success">add to cart</a>
+                    </div>
+                  </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!--Contact and connect US-->
+    <div class="contactdiv">
+
+        <div class="contacts">
+          <center><h2>Contact Us</h2>
+          <span class="line"></span></center>
+      
+          <p></p>
+          <ul class="p-4" class="ul-1">
+            <li class="li-1">
+                <i class="fa fa-map-marker faa"></i>
+                &nbsp; <b>Address:</b>&nbsp;Niaź Ahmed and brothers near madinah masjid main bus stand matiari
+            </li>
+            <li class="li-1">
+                <i class="fa fa-phone faa"></i>
+                &nbsp;+923368095790
+            </li>
+            <li class="li-1">
+                <i class="fa fa-phone faa"></i>
+                &nbsp;+03133219433
+            </li>
+            <li class="li-1">
+                <i class="fa fa-envelope faa"></i>
+                &nbsp; Memonniaz9@gmail.com
+            </li>
+            <li class="li-1">
+                <i class="fa fa-clock-o faa"></i>
+                &nbsp; <b>Every day from 8am to 7pm</b>
+            </li>
+        </ul>
+        </div>
+        <div class="link">
+          <br>
+          <center><h2>Connect with Us</h2>
+            <span class="line"></span></center>
+      <br>
+            <ul class="connect-us-ul">
+              <li class="connect-us-li"><i class="fa fa-facebook fi px-3" aria-hidden="true"></i></li>
+              <li class="connect-us-li"><i class="fa fa-skype fi" aria-hidden="true"></i></li>
+              <li class="connect-us-li"><i class="fa fa-twitter fi" aria-hidden="true"></i></li>
+              <li class="connect-us-li"><i class="fa fa-instagram fi" aria-hidden="true"></i></li>
+            </ul>
+          
+        </div>
+      </div>
+      
+
+      <!--footer-->
+      <div class="footer">
+        Copyright © 2020. All Rights Reserved by Niaz and Brothers.
+      </div>
+        
+
+
+    <!--Javacript offline-->
+    <script rel="stylesheet" href="bootstrap-4.4.1-dist/js/jquery.js"></script>
+    <script rel="stylesheet" href="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <script rel="stylesheet" href="bootstrap-4.4.1-dist/js/bootnavbar.js"></script>
+
+
+    <!--Online-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

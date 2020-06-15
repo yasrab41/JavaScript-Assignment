@@ -1,0 +1,33 @@
+#maindiv{
+    position: relative;
+    margin:auto;
+
+
+    width:350px;
+    height:450px;
+    border: 10px solid black;
+}
+
+#screen{
+    width: 340px;
+    height: 60px;
+
+
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin: auto;
+    border: 2px solid black;
+}
+
+#space{
+    width:350px;
+    height:10px;
+}
+.btn_style{
+    width: 45px;
+    height: 45px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
